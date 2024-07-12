@@ -21,6 +21,19 @@ export const api={
         ])
       },2000)
     })
+  },
+  updatePost(postId:string,text:string){
+    return Promise.resolve({
+      id: postId,
+      text,
+      likes: 1002,
+      // author: {id: '2', name: 'Valera'},
+/*
+      lastComments: [
+        {id: '1', text: 'Lorem Ipsum', author: {id: '2', name: 'Valera'}},
+        {id: '2', text: 'lorem lorem lorem', author: {id: '3', name: 'Sveta'}}],
+*/
+    })
   }
 }
 
