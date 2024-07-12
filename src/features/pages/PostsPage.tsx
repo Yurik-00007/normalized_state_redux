@@ -5,14 +5,14 @@ import {AppRootStateType, useAppDispatch} from "../app/store";
 import {fetchPosts} from "../posts/reducer";
 
 export const PostsPage = () => {
-  const items = useSelector((state:AppRootStateType) =>state.posts.items)
+  const ids = useSelector((state:AppRootStateType) =>state.posts.allIds)
   const dispatch = useAppDispatch();
   useEffect(()=>{
     dispatch(fetchPosts())
   },[])
   return (
     <div>
-      {items.map((i) => <Post key={i.postId} post={i} />)}
+      {ids.map((id) => <Post key={id} postId={id} />)}
     </div>
   );
 };
