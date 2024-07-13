@@ -1,11 +1,15 @@
 import {thunk} from "redux-thunk";
 import {useDispatch} from "react-redux";
 
-import {postsReducer} from "../posts/reducer";
+import {postsReducer} from "../posts/post-reducer";
 import {AnyAction, applyMiddleware, combineReducers, legacy_createStore, ThunkDispatch} from "@reduxjs/toolkit";
+import {authorsReducer} from "../posts/authors-reducer";
+import {commentsReducer} from "../posts/comments-reducer";
 
 const rootReducer = combineReducers({
   posts: postsReducer,
+  authors: authorsReducer,
+  comments: commentsReducer,
 });
 export type AppRootStateType=ReturnType<typeof rootReducer>
 // @ts-ignore

@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60094ea4-f7b9-4e37-a66b-572ec2c178fe" name="Changes" comment="" />
+    <list default="true" id="60094ea4-f7b9-4e37-a66b-572ec2c178fe" name="Changes" comment="first normalizing post">
+      <change afterPath="$PROJECT_DIR$/src/features/posts/authors-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/posts/comments-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/app/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/pages/PostsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/pages/PostsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/posts/components/Post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/posts/components/Post.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/posts/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/posts/post-reducer.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,29 +27,42 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2j8i8o7NgGkCoUKZSkVXskMjyaD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ImportCost&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\secondMonday\\todolist_last_22.10.23\\23 normalized state, redux_repeat\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "D:/secondMonday/todolist_last_22.10.23/23 normalized state, redux_repeat/src/features/posts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "ImportCost",
+    "ts.external.directory.path": "D:\\secondMonday\\todolist_last_22.10.23\\23 normalized state, redux_repeat\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\secondMonday\todolist_last_22.10.23\23 normalized state, redux_repeat\src\features\posts" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -74,11 +96,44 @@
       <option name="presentableId" value="Default" />
       <updated>1720774948570</updated>
       <workItem from="1720774950214" duration="13771000" />
-      <workItem from="1720805884210" duration="829000" />
+      <workItem from="1720805884210" duration="34322000" />
     </task>
+    <task id="LOCAL-00001" summary="classic state">
+      <option name="closed" value="true" />
+      <created>1720811780913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720811780913</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first normalizing post">
+      <option name="closed" value="true" />
+      <created>1720814540674</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720814540674</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="classic state" />
+    <MESSAGE value="first normalizing post" />
+    <option name="LAST_COMMIT_MESSAGE" value="first normalizing post" />
   </component>
 </project>
